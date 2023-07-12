@@ -10,17 +10,20 @@
 
 <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #bc3131;">
   <div class="container-fluid">
-    <a class="navbar-brand" href="#">Navbar</a>
+    <a class="navbar-brand" href="#">DANDY 4C</a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarNavDropdown">
       <ul class="navbar-nav">
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="./">Home</a>
+          <a class="nav-link active" aria-current="page" href="index.php">Home</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="input.php">Data Mahasiswa</a>
+          <a class="nav-link" href="input.php">Data Dosen</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="inputmahasiswa.php">Data Mahasiswa</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="profile.php">Profil Penulis</a>
@@ -30,9 +33,9 @@
             Dropdown link
           </a>
           <ul class="dropdown-menu">
-            <li><a class="dropdown-item" href="#">Koko</a></li>
-            <li><a class="dropdown-item" href="#">Laundry Koko</a></li>
-            <li><a class="dropdown-item" href="#">Portofolio Koko</a></li>
+            <li><a class="dropdown-item" href="#">Instagram Dandy</a></li>
+            <li><a class="dropdown-item" href="#">Steam Dandy</a></li>
+            <li><a class="dropdown-item" href="#">Thread Dandy</a></li>
           </ul>
         </li>
       </ul>

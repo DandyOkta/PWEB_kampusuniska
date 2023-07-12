@@ -1,16 +1,19 @@
 <?php
 include 'connection.php';
 if (isset($_POST['submit'])) {
-    $nidn                = $_POST['nidn'];
-    $nama_lengkap        = $_POST['nama'];
-    $jenis_kelamin       = $_POST['jeniskelamin'];
+    $nim                 = $_POST['nim'];
+    $nama                = $_POST['nama'];
+    $tempatlahir         = $_POST['tempatlahir'];
+    $tanggallahir        = $_POST['tanggallahir'];
+    $jurusan             = $_POST['jurusan'];
+    $jeniskelamin        = $_POST['jeniskelamin'];
     $alamat              = $_POST['alamat'];
     $telepon             = $_POST['telepon'];
     $email               = $_POST['email'];
 
-    $result = mysqli_query($con, "INSERT INTO dosen(nidn,nama_lengkap,jenis_kelamin,alamat,telepon,email) VALUES('$nidn','$nama_lengkap','$jenis_kelamin','$alamat','$telepon','$email')");
+    $result = mysqli_query($con, "INSERT INTO mahasiswa(nim,nama,tempat_lahir,tanggal_lahir,jurusan,jenis_kelamin,alamat,telepon,email) VALUES('$nim','$nama','$tempatlahir','$tanggallahir','$jurusan','$jeniskelamin','$alamat','$telepon','$email')");
 
-    header('location:input.php');
+    header('location:inputmahasiswa.php');
     //     echo $nim . "<br>";
     //     echo $nama . "<br>";
     //     echo $tempatlahir . "<br>";
@@ -37,19 +40,41 @@ if (isset($_POST['submit'])) {
     <?php include 'nav.php' ?>
 
     <div class="container">
-        <h1 class="mt-4">INPUT DATA DOSEN</h1>
+        <h1 class="mt-4">INPUT DATA MAHASISWA</h1>
         <hr>
         <form action="" method="post">
             <div class="mb-3 row">
-                <label for="nidn" class="col-sm-2 col-form-label">NIDN</label>
+                <label for="nim" class="col-sm-2 col-form-label">NIM</label>
                 <div class="col-sm-10">
-                    <input type="text" class="form-control" id="nidn" name="nidn">
+                    <input type="text" class="form-control" id="nim" name="nim">
                 </div>
             </div>
             <div class="mb-3 row">
                 <label for="nama" class="col-sm-2 col-form-label">Nama</label>
                 <div class="col-sm-10">
                     <input type="text" class="form-control" id="nama" name="nama">
+                </div>
+            </div>
+            <div class="mb-3 row">
+                <label for="tempatlahir" class="col-sm-2 col-form-label">Tempat Lahir</label>
+                <div class="col-sm-10">
+                    <input type="text" class="form-control" id="tempatlahir" name="tempatlahir">
+                </div>
+            </div>
+            <div class="mb-3 row">
+                <label for="tanggallahir" class="col-sm-2 col-form-label">Tanggal Lahir</label>
+                <div class="col-sm-10">
+                    <input type="date" class="form-control" id="tanggallahir" name="tanggallahir">
+                </div>
+            </div>
+            <div class="mb-3 row">
+                <label for="jurusan" class="col-sm-2 col-form-label">Jurusan</label>
+                <div class="col-sm-10">
+                    <select name="jurusan" id="jurusan" class="form-select">
+                        <option value="-">Pilih Program Studi</option>
+                        <option value="TI">Teknik Informatika</option>
+                        <option value="SI">Sistem Informasi</option>
+                    </select>
                 </div>
             </div>
             <div class="mb-3 row">
@@ -83,7 +108,7 @@ if (isset($_POST['submit'])) {
             <div class="mb-3 row">
                 <div class="offset-sm-2">
                     <input type="submit" name="submit" value="Simpan" class="btn btn-primary">
-                    <a href="input.php" class="btn btn-warning">Kembali</a>
+                    <a href="inputmahasiswa.php" class="btn btn-warning">Kembali</a>
                 </div>
             </div>
         </form>
