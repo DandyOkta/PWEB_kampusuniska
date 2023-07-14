@@ -1,0 +1,135 @@
+.lingkaran {
+    display: inline-block;
+    border-radius: 50%;
+    width: 150px;
+    margin: auto;
+    height: 150px;
+    color: #fff;
+    background-color: #dc3545;
+  }
+  
+  .lingkaran img {
+    position: relative;
+    top: 25px;
+  }
+  
+  .crop-img {
+    object-fit: cover;
+  }
+  
+  a.socialtw {
+    color: #fff;
+  }
+  
+  a.socialfb {
+    color: #fff;
+  }
+  
+  a.socialyt {
+    color: #fff;
+  }
+  
+  
+  button.socialtw {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    color: #fff;
+    border-radius: 50%;
+    border: aqua;
+    background-color: aqua;
+    line-height: 30px;
+    text-align-last: center;
+    box-shadow: 0 3px #999;
+  }
+  
+  button.socialtw:hover {background-color: #3e838e3e }
+  
+  button.socialtw:active {
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
+  
+  button.socialfb {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    color: #fff;
+    border-radius: 50%;
+    border: blue;
+    background-color: blue;
+    line-height: 30px;
+    text-align-last: center;
+    box-shadow: 0 3px #999;
+  }
+  
+  button.socialfb:hover {background-color: #3e838e3e }
+  
+  button.socialfb:active {
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
+  
+  button.socialyt {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    color: #fff;
+    border-radius: 50%;
+    border: #ff2846;
+    background-color: red;
+    line-height: 30px;
+    text-align-last: center;
+    box-shadow: 0 3px #999;
+  }
+  
+  button.socialyt:hover {background-color: #3e838e3e }
+  
+  button.socialyt:active {
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
+  
+  .col img {
+    height: auto;
+    max-height: 50px;
+    border: 10px;
+    width: 50px;
+  }
+  
+  .kontak {
+    background: url("https://wallpaperaccess.com/full/1867010.jpg") no-repeat
+    center center;
+    background-size: cover;
+    padding-bottom: 20%;
+    padding-top: 20%;
+    color: #fff;
+  }
+
+  .clearfix img {
+    width: 250px;
+    height: 250px;
+    margin-left: 20px;
+    border: 10px solid #cccccc;
+  }
+
+  .clearfixtony img {
+    width: 250px;
+    height: 250px;
+    margin-right: 20px;
+    border: 10px solid #cccccc;
+  }
+
+  .testi {
+    text-align: justify;
+  }
+
+  .clearfix p {
+    padding-bottom: 100px;
+  }
+
+  
+  

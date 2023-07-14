@@ -1,0 +1,118 @@
+body {
+  padding: 100px;
+  background-image: linear-gradient(-20deg, #ff2846 0%, #6944ff 100%);
+  text-align: center;
+}
+
+a.socialtw {
+  color: #fff;
+}
+
+a.socialfb {
+  color: #fff;
+}
+
+a.socialyt {
+  color: #fff;
+}
+
+
+button.socialtw {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  color: #fff;
+  border-radius: 50%;
+  border: aqua;
+  background-color: aqua;
+  line-height: 30px;
+  text-align-last: center;
+  box-shadow: 0 3px #999;
+}
+
+button.socialtw:hover {background-color: #3e838e3e }
+
+button.socialtw:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+button.socialfb {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  color: #fff;
+  border-radius: 50%;
+  border: blue;
+  background-color: blue;
+  line-height: 30px;
+  text-align-last: center;
+  box-shadow: 0 3px #999;
+}
+
+button.socialfb:hover {background-color: #3e838e3e }
+
+button.socialfb:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+button.socialyt {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  color: #fff;
+  border-radius: 50%;
+  border: #ff2846;
+  background-color: red;
+  line-height: 30px;
+  text-align-last: center;
+  box-shadow: 0 3px #999;
+}
+
+button.socialyt:hover {background-color: #3e838e3e }
+
+button.socialyt:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+ul {
+  margin-left: -45px;
+}
+
+li {
+  list-style: none;
+  display: inline-block;
+}
+
+.main {
+  width: auto;
+  height: auto;
+  background-color: #fafafa;
+  margin: 0 auto;
+  padding-top: 20px;
+  border-radius: 10px;
+  border: 1px solid #eeeeee;
+}
+
+
+.profil {
+  width: 300px;
+  height: 300px;
+}
+
+h1 {
+  text-align: center;
+  font-size: 30px;
+  margin: 0;
+  font-weight: bold;
+  color: #6944ff;
+}
+
+.footer {
+  border-radius: 10px;
+}
